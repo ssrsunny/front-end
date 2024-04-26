@@ -1,0 +1,37 @@
+body {
+  background-color: lightblue;
+  border: 2px solid gold;
+  font-family: Roboto;
+  height: 110vh;
+  width: 33%;
+}
+
+.container {
+  height: 110vh;
+  background-image: url("./newsbg.png");
+  background-size: cover;
+}
+
+.text-container {
+  border-top-left-radius: 13px;
+  border-top-right-radius: 13px;
+  background-color: white;
+  color: black;
+  margin-left: -12px;
+  margin-right: -12px;
+}
+.text {
+  margin: 25px;
+}
+h6,
+p {
+  color: #7b8794;
+  font-size: 15px;
+}
+h4 {
+  color: #323f4b;
+}
+.btn1 {
+  color: white;
+  background-color: #323f4b;
+}
