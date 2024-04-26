@@ -1,0 +1,40 @@
+body {
+  width: 30%;
+  height: 100vh;
+  border: 2px solid gold;
+}
+
+.head {
+  height: 80px;
+  background-color: #323f4b;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.container {
+  height: 100vh;
+  color: white;
+  background-image: url("./chatbg.png");
+}
+
+.person {
+  margin: 20px 0;
+  padding-top: 15px;
+  height: 30px;
+  width: 100%;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.person1 {
+  text-align: right;
+  background-color: #47a3f3;
+  border-bottom-left-radius: 5px;
+  padding-right: -5px;
+}
+
+.person2 {
+  text-align: left;
+  background-color: #52606d;
+  border-bottom-right-radius: 5px;
+}
