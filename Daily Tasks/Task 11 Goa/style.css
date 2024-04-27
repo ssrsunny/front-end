@@ -1,0 +1,15 @@
+body {
+  border: 2px solid gold;
+  background-color: white;
+  color: #323f4b;
+  height: 130vh;
+  width: 33%;
+}
+
+p {
+  color: #9aa5b1;
+}
+
+.video {
+  border-radius: 13px;
+}
