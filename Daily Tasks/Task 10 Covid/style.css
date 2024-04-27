@@ -1,7 +1,7 @@
 body {
   border: 4px solid lightblue;
   background-color: white;
-  height: 110vh;
+  height: 90vh;
   width: 33%;
   font-family: Roboto;
   color: #323f4b;
@@ -11,7 +11,7 @@ p {
 }
 .container {
   /* border: 2px solid black; */
-  height: 110vh;
+  height: 100vh;
 }
 .flex1 {
   /* border: 2px solid violet; */
