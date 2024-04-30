@@ -1,0 +1,17 @@
+body {
+  background-color: lightblue;
+  border: 2px solid #707070;
+  width: 18.2rem;
+}
+
+li {
+  padding: 5px 0px;
+  padding-left: 0px;
+}
+
+button {
+  margin-left: 90px;
+}
+h4 {
+  font-weight: bold;
+}
