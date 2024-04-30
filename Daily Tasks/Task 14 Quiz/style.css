@@ -1,0 +1,59 @@
+body {
+  background-color: lightblue;
+  border: 2px solid gold;
+  width: 33%;
+  background-color: #875fc0;
+}
+
+.score {
+  color: white;
+  text-align: right;
+  padding: 30px;
+  padding-bottom: 0;
+}
+
+.can {
+  background-color: #875fc0;
+}
+li {
+  width: 80%;
+  list-style: none;
+  border: 2px solid black;
+  padding: 16px;
+  border-radius: 10px;
+  margin: 16px 0px;
+  margin-left: 30px;
+}
+
+img {
+  margin-bottom: 5%;
+  width: 80%;
+}
+.container {
+  padding-top: 16px;
+  width: 90%;
+  border-radius: 13px;
+  text-align: center;
+  background-color: white;
+  margin-bottom: 20px;
+}
+.container2 {
+  background-color: white;
+  text-align: justify;
+}
+
+.btn {
+  color: white;
+  background-color: #fbaf00;
+  padding: 6px 20px;
+}
+
+.button {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.selected {
+  color: white;
+  background-color: #875fc0;
+}
