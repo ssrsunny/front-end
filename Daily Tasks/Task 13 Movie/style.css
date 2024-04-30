@@ -1,0 +1,35 @@
+body {
+  width: 30rem;
+  border: 2px solid gold;
+  color: white;
+  height: 110vh;
+}
+
+.container1 {
+  height: 100vh;
+  background-image: url("./orange-color-bg.png");
+  background-size: cover;
+}
+
+.title {
+  display: inline-flex;
+  margin: 16px;
+}
+
+.description {
+  margin: 16px;
+}
+
+button {
+  padding: 2px 15px;
+  border-radius: 8px;
+  border: none;
+  color: #ff8348;
+  background-color: white;
+  margin-left: 80px;
+}
+
+.can1 {
+  margin: 0px 16px;
+  padding-top: 16px;
+}
