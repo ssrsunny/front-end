@@ -39,7 +39,7 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div>
+    <div class="main">
       <section>
         <div id="section_main">
           <h1>My Projects</h1>
@@ -51,22 +51,40 @@
           <div class="container text-center">
             <div class="row row-cols-2">
               <div class="col">
-                <button onclick="display('section_one')">C1</button>
+                <button class="bt" onclick="display('section_one')">
+                  <a href="../Task 6 Technologies/index.html"
+                    ><img class="images" src="./tech.png" alt=""
+                  /></a>
+                </button>
               </div>
               <div class="col">
-                <button onclick="display('section_two')">C2</button>
+                <button class="bt" onclick="display('section_two')">
+                  <a href="../Task 3 Coding/index.html"
+                    ><img class="images" src="./coding.png" alt=""
+                  /></a>
+                </button>
               </div>
               <div class="col">
-                <button onclick="display('section_three')">C3</button>
+                <button class="bt" onclick="display('section_three')">
+                  <a href="../Task 4 FoodOrder/index.html"
+                    ><img class="images" src="./food order.png" alt=""
+                  /></a>
+                </button>
               </div>
               <div class="col">
-                <button onclick="display('section_four')">C4</button>
+                <button class="bt" onclick="display('section_four')">
+                  <a href="../Task 8 News/index.html"
+                    ><img class="images" src="./news.png" alt=""
+                  /></a>
+                </button>
               </div>
             </div>
           </div>
         </div>
       </section>
-      <section><div id="section_one">COL1</div></section>
+      <section>
+        <div id="section_one">COL1</div>
+      </section>
       <section><div id="section_two">COL2</div></section>
       <section><div id="section_three">COL3</div></section>
       <section><div id="section_four">COL4</div></section>

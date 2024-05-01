@@ -6,3 +6,18 @@ body {
   width: 33%;
   height: 100vh;
 }
+
+.images {
+  height: 150px;
+  width: 100px;
+}
+
+.bt {
+  margin: 20px;
+  border: none;
+}
+
+.main {
+  margin-top: 50px;
+  text-align: center;
+}
