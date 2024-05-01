@@ -4,7 +4,7 @@ body {
   width: 33%;
 }
 
-#contain1 {
+#section_contain1 {
   text-align: center;
   background-image: url("./moon-stars-bg.png");
   background-size: cover;
@@ -12,12 +12,12 @@ body {
   padding-bottom: 18%;
 }
 
-#contain1 > p {
+#section_contain1 > p {
   padding: 0% 10%;
   width: 95%;
 }
 
-#contain1 > img {
+#section_contain1 > img {
   margin: 30% 10%;
   margin-bottom: 10px;
   width: 80%;
@@ -34,7 +34,7 @@ body {
   color: #98a1bd;
 }
 
-#contain2 {
+#section_contain2 {
   padding: 16px;
   display: none;
   background-color: #03174c;
