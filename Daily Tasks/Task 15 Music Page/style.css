@@ -1,0 +1,62 @@
+body {
+  font-family: Bree Serif;
+  color: white;
+  width: 33%;
+}
+
+#contain1 {
+  text-align: center;
+  background-image: url("./moon-stars-bg.png");
+  background-size: cover;
+  padding-top: 20%;
+  padding-bottom: 18%;
+}
+
+#contain1 > p {
+  padding: 0% 10%;
+  width: 95%;
+}
+
+#contain1 > img {
+  margin: 30% 10%;
+  margin-bottom: 10px;
+  width: 80%;
+}
+.img21 {
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.img22 {
+  width: 90%;
+}
+.light {
+  color: #98a1bd;
+}
+
+#contain2 {
+  padding: 16px;
+  display: none;
+  background-color: #03174c;
+}
+h6 {
+  padding-top: 10px;
+}
+
+.btn {
+  margin-left: 30px;
+  margin-bottom: 30px;
+  padding: 10px 10px;
+  border-radius: 13px;
+  color: white;
+  background-color: #8e97fd;
+}
+.btn2 {
+  margin-left: 0%;
+  padding: 10px 20px;
+}
+.bree-serif-regular {
+  font-family: "Bree Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}

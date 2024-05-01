@@ -1,0 +1,29 @@
+body {
+  font-family: Roboto;
+}
+
+.head {
+  text-align: center;
+  width: 60%;
+  margin: 0% 20%;
+}
+
+.grn {
+  color: #183b56;
+}
+.gry {
+  color: #5a7184;
+}
+
+.btn1 {
+  margin: 0% 42.5%;
+  width: 15%;
+  border: none;
+  /* background-color: #0b5ed7; */
+  color: white;
+  margin-bottom: 100px;
+}
+
+#contain2 {
+  display: none;
+}
