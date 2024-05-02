@@ -1,0 +1,15 @@
+body {
+  color: white;
+}
+
+p {
+  background-color: blue;
+}
+
+h1 {
+  color: black;
+}
+
+.container {
+  text-align: center;
+}

@@ -1,0 +1,16 @@
+body {
+  color: white;
+}
+
+p {
+  /* border: 2px solid gold; */
+  /* margin: 5px; */
+}
+
+h1 {
+  color: black;
+}
+
+div {
+  border: 5px solid white;
+}
