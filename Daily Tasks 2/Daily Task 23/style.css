@@ -1,0 +1,33 @@
+body {
+}
+.container1 {
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  background-image: url("./vr-banner-bg.png");
+}
+
+.navbar {
+  background-color: white;
+}
+.all {
+  justify-content: right;
+}
+
+.logo {
+  margin-left: 20px;
+  height: 40px;
+  width: 50px;
+}
+
+.view {
+  border: none;
+  color: white;
+  background-color: #1a2137;
+  padding: 10px 15px;
+}
+
+.text {
+  margin-top: 200px;
+  color: white;
+}
