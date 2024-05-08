@@ -1,0 +1,19 @@
+body {
+  color: white;
+  background-color: #222b36;
+}
+
+.ctus {
+  color: white;
+  background-color: transparent;
+  border: 2px solid white;
+}
+
+.image {
+  height: 250px;
+  width: 400px;
+}
+
+h1 {
+  font-size: 48px;
+}

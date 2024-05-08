@@ -1,0 +1,12 @@
+body {
+  background-color: #fafbff;
+}
+h1 {
+  margin: 30px;
+  margin-left: 0;
+  font-weight: 600;
+}
+.img {
+  width: 250px;
+  height: 250px;
+}
