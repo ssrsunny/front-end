@@ -1,0 +1,13 @@
+.card {
+  border: none;
+}
+
+button {
+  width: 150px;
+  margin-bottom: 30px;
+  background-color: #1a2137;
+}
+
+p {
+  color: #7b8794;
+}
