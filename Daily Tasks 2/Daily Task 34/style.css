@@ -1,0 +1,31 @@
+.container {
+  padding-top: 30px;
+  background-color: #0d2436;
+}
+
+h4 {
+  color: #cced00;
+}
+
+.col-12 {
+  color: #9aa5b1;
+}
+
+.copy {
+  text-align: center;
+  padding: 20px;
+  background-color: #001c32;
+  color: #5a7184;
+}
+
+img {
+  margin-top: 10px;
+  margin-right: 10px;
+  float: left;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+}
+i {
+  padding-right: 10px;
+}
