@@ -1,0 +1,32 @@
+body {
+  color: white;
+  background-color: #3e4c59;
+}
+
+.text {
+  margin-top: 16px;
+}
+
+h3,
+a {
+  color: #cced00;
+  text-decoration: none;
+}
+p,
+h6 {
+  color: #9aa5b1;
+}
+
+.col-12 {
+  padding: 30px;
+  background-color: #323f4b;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+}
+
+a::after {
+  content: " \2192";
+}
