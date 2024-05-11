@@ -1,0 +1,33 @@
+main {
+  background-color: #191a1d;
+  color: white;
+  height: 100vh;
+}
+
+.btn {
+  color: white;
+  background-color: #4b6cc1;
+}
+
+img {
+  height: 300px;
+  width: 300px;
+  margin-top: 10%;
+}
+
+nav {
+  background-color: #353942;
+}
+
+a {
+  color: white !important;
+}
+/* 
+ul {
+  display: flex;
+  justify-content: end;
+} */
+
+h2 {
+  margin-top: 100px;
+}
