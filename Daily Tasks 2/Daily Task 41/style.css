@@ -1,0 +1,31 @@
+body {
+  margin: 30px 20px;
+}
+.bttn {
+  color: #ff9f00;
+}
+
+a {
+  text-decoration: none;
+}
+
+.card {
+  height: 100%;
+  width: 67%;
+}
+h1 {
+  color: #183b56;
+  margin: 20px;
+  margin-left: 0;
+}
+
+.cc {
+  margin-bottom: 20px;
+}
+
+.card-title {
+  color: #183b56;
+}
+p {
+  color: #959ead;
+}
