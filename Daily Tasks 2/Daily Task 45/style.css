@@ -1,0 +1,24 @@
+.col-12 > p,
+.col-12 > h3 {
+  color: white;
+}
+h1 {
+  color: #183b56;
+}
+span {
+  font-weight: 600;
+}
+
+.col-12 {
+  border-radius: 10px;
+  border: 2px solid green;
+  background-size: cover;
+  height: 50ch;
+}
+
+.c1 {
+  background-image: url(https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/ecommerce-products-headphones-bg.png);
+}
+.c2 {
+  background-image: url(https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/ecommerce-products-laptops-bg.png);
+}

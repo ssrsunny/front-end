@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modal</title>
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div>
+      <div class="container">
+        <h1>Our Products</h1>
+        <div class="row d-flex justify-content-around">
+          <div class="col-12 col-md-5 c1">
+            <h3>Smart Headphones</h3>
+            <p>Headphones with deep bass, sound, touch</p>
+            <button
+              type="button"
+              class="btn btn-primary"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal1"
+            >
+              View Details 1
+            </button>
+
+            <!-- Modal -->
+            <div
+              class="modal fade"
+              id="exampleModal1"
+              tabindex="-1"
+              aria-labelledby="exampleModalLabel1"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel1">
+                      Sony WH-1000XM4 Noise Cancelling Headphones
+                    </h1>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body">
+                    <p>
+                      Get Best Smart Headphones Prices Online in India. Select
+                      from the best range of Headphones from most popular
+                      brands...
+                    </p>
+                    <p>
+                      <span>Voice assistant:</span> Alexa, Google Assistant &
+                      Siri Smart
+                    </p>
+                    <p>
+                      <span>Listening:</span> Ambient sound with the best noise
+                      cancellation
+                    </p>
+                    <p>
+                      <span> Long battery life:</span> A single charge provides
+                      30 hours of
+                    </p>
+                    <p>
+                      <span>Playtime Quick charging:</span> Charge for 10 min
+                      for 5 hours
+                    </p>
+                    <p>
+                      <span> Play back Touch controls:</span> Change the track
+                      with your fingertip
+                    </p>
+                  </div>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-light"
+                      data-bs-dismiss="modal"
+                    >
+                      Buy Now
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-5 c2">
+            <h3>Laptops</h3>
+            <p>Explore vast selection of Laptops</p>
+            <button
+              type="button"
+              class="btn btn-primary"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal2"
+            >
+              View Details 2
+            </button>
+
+            <!-- Modal -->
+            <div
+              class="modal fade"
+              id="exampleModal2"
+              tabindex="-1"
+              aria-labelledby="exampleModalLabel2"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel2">
+                      Inspiron 14 5490 core i5 Laptop
+                    </h1>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body">
+                    <p>
+                      Get Best Laptop Prices Online in India. Select from the
+                      best range of Laptops from most popular brands...
+                    </p>
+                    <p>
+                      <span>Performance:</span> Core i5 3rd Gen, 2.6 Ghz, 4 GB
+                      RAM
+                    </p>
+                    <p><span>Storage: </span> 500 GB HDD, SATA, 7200 RPM</p>
+                    <p><span>Battery:</span> Li-lon, 6 Cell</p>
+                    <p>
+                      <span>Design:</span> 14.0 Inches, 1366 X 768, 2.07 Kg, 34
+                      Mm Thick
+                    </p>
+                  </div>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-light"
+                      data-bs-dismiss="modal"
+                    >
+                      Buy Now
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
