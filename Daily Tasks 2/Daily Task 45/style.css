@@ -24,6 +24,8 @@ span {
 }
 
 .btn1 {
+  margin-bottom: 20px;
+  width: 140px;
   border-radius: 20px;
   background-color: white;
   color: #ff9f00;
