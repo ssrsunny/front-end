@@ -22,3 +22,9 @@ span {
 .c2 {
   background-image: url(https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/ecommerce-products-laptops-bg.png);
 }
+
+.btn1 {
+  border-radius: 20px;
+  background-color: white;
+  color: #ff9f00;
+}
