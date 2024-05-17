@@ -7,16 +7,23 @@ function increase() {
 function decrease() {
   let x = document.getElementById("count").textContent;
   document.getElementById("count").textContent = x - 1;
+  colr();
 }
 
 function reset() {
   document.getElementById("count").textContent = 0;
+  colr();
 }
 
-// function colr() {
-//   let x = document.getElementById("count").textContent;
+function colr() {
+  let x = document.getElementById("count").textContent;
+  console.log(x);
 
-//   if (x > 0) {
-//     document.getElementById("inc").style.color = green;
-//   }
-// }
+  if (x > 0) {
+    document.getElementById("count").style.color = "green";
+  } else if (x < 0) {
+    document.getElementById("count").style.color = "red";
+  } else {
+    document.getElementById("count").style.color = "black";
+  }
+}
