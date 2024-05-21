@@ -1,0 +1,17 @@
+button {
+  width: 100px;
+}
+
+#stopLight,
+#readyLight,
+#goLight {
+  margin: 8px;
+  height: 40px;
+  width: 40px;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+
+.can2 {
+  background-color: aqua;
+}

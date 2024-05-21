@@ -1,8 +1,18 @@
-img {
+#imag {
   height: 600px;
-  width: 500px;
+  width: 600px;
 }
-
+#back {
+  display: none;
+}
+/* 
+.col {
+  border: 2px solid gold;
+} */
+.col > img {
+  height: 400px;
+  width: 300px;
+}
 button {
   height: 30px;
   width: 90px;
