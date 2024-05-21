@@ -1,0 +1,18 @@
+img {
+  height: 400px;
+  width: 600px;
+}
+
+button {
+  border-radius: 5px;
+  margin: 10px;
+  border: none;
+  height: 40px;
+  width: 80px;
+  background-color: #cbd2d9;
+  color: #9aa5b1;
+}
+
+i {
+  fill: red;
+}
