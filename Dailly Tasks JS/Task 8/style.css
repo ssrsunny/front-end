@@ -1,5 +1,18 @@
+body {
+  background-color: #86d2f2;
+}
+
+h1 {
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
 button {
+  border: none;
+  border-radius: 5px;
+  height: 40px;
   width: 100px;
+  background-color: #1f1d41;
+  color: white;
 }
 
 #stopLight,
@@ -8,10 +21,14 @@ button {
   margin: 8px;
   height: 40px;
   width: 40px;
-  border: 1px solid black;
+  border: 1px solid gold;
   border-radius: 50%;
+  background-color: #4b5069;
 }
 
 .can2 {
-  background-color: aqua;
+  margin-left: 30px;
+  border-radius: 20px;
+  padding: 20px;
+  background-color: #1f1d41;
 }

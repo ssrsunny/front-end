@@ -34,16 +34,16 @@
     <div>
       <div class="container text-center">
         <h1>Traffic Light</h1>
-        <div class="d-flex flex-row justify-content-evenly">
+        <div class="d-flex flex-row justify-content-center can1">
           <div class="d-flex flex-column justify-content-around">
-            <button id="stopButtton">Stop</button>
-            <button id="readyButton">Ready</button>
-            <button id="goButton">Go</button>
+            <button id="stopButton" onclick="button(this.id)">Stop</button>
+            <button id="readyButton" onclick="button(this.id)">Ready</button>
+            <button id="goButton" onclick="button(this.id)">Go</button>
           </div>
           <div class="d-flex flex-column justify-content-center can2">
-            <div id="stopLight">a</div>
-            <div id="readyLight">s</div>
-            <div id="goLight">d</div>
+            <div id="stopLight"></div>
+            <div id="readyLight"></div>
+            <div id="goLight"></div>
           </div>
         </div>
       </div>
