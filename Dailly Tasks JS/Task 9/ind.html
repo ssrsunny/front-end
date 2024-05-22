@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Size Adjuster</title>
+    <style>
+      #image {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 20px auto;
+      }
+    </style>
+  </head>
+  <body>
+    <img
+      id="image"
+      src="https://i0.hippopx.com/photos/242/966/413/dawn-sun-mountain-landscape-preview.jpg"
+      alt="Example Image"
+    />
+    <button onclick="increaseSize()">+</button>
+    <button onclick="decreaseSize()">-</button>
+
+    <script>
+      function increaseSize() {
+        var image = document.getElementById("image");
+        var currentWidth = image.offsetWidth;
+        var newWidth = currentWidth + 5;
+        image.style.width = newWidth + "px";
+      }
+
+      function decreaseSize() {
+        var image = document.getElementById("image");
+        var currentWidth = image.offsetWidth;
+        var newWidth = currentWidth - 5;
+        image.style.width = newWidth + "px";
+      }
+    </script>
+  </body>
+</html>
