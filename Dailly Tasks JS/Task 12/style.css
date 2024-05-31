@@ -1,0 +1,26 @@
+body {
+  margin-top: 20px;
+  color: white;
+  background-color: #4b6e86;
+}
+
+.container {
+  border-radius: 5px;
+  width: 30%;
+  background-color: #f6f8f5;
+  color: #4b6e86;
+}
+
+.apply {
+  margin: 12px 0;
+  border: none;
+  background-color: #0a7af2;
+  color: white;
+  border-radius: 5px;
+  padding: 5px 16px;
+}
+
+#custom {
+  margin: 10px;
+  margin-bottom: 30px;
+}
