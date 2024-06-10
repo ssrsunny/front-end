@@ -38,9 +38,9 @@
       <div>
         <h2>Todos</h2>
         <h3>Create Task</h3>
-        <input type="text" />
+        <input type="text" id="textitem" />
         <div>
-          <button>Add</button>
+          <button id="addButton" onclick="createListItem()">Add</button>
         </div>
       </div>
       <h3>MyTasks</h3>
@@ -53,7 +53,9 @@
           </div>
         </div>
         <div>
-          <span><input type="checkbox" name="css" id="css" /></span>
+          <span>
+            <input type="checkbox" name="css" id="css" />
+          </span>
           <div class="item">
             <label for="css">Learn CSS</label>
             <span><i class="bi bi-trash"></i></span>
