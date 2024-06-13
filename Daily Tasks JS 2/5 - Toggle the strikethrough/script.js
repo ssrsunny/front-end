@@ -29,12 +29,10 @@ function createList() {
 
     li.appendChild(checkboxSpan);
     li.appendChild(itemSpan);
-    // li.appendChild(label);
 
     checkbox.addEventListener("click", function () {
       toggleCheckbox(this, label);
     });
-    // console.log(this.id, this.label);
     ul.appendChild(li);
   });
 }

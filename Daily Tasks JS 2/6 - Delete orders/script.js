@@ -10,14 +10,6 @@ function createList() {
   List.forEach((item) => {
     let li = document.createElement("li");
 
-    // let checkbox = document.createElement("input");
-    // checkbox.type = "checkbox";
-    // checkbox.id = `checkbox${item.uniqueNo}`;
-    // checkbox.name = `checkbox${item.uniqueNo}`;
-
-    // let checkboxSpan = document.createElement("span");
-    // checkboxSpan.appendChild(checkbox);
-
     let label = document.createElement("label");
     label.htmlFor = `item${item.uniqueNo}`;
     label.id = `item${item.uniqueNo}`;
