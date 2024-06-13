@@ -1,0 +1,11 @@
+ul {
+  list-style: none;
+}
+
+label {
+  padding: 10px 0 10px 20px;
+}
+
+.strikethrough {
+  text-decoration: line-through;
+}
