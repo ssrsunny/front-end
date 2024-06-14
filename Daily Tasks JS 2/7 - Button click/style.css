@@ -1,0 +1,17 @@
+body {
+  background-color: #f1f5f8;
+  color: #2d3a35;
+  font-family: Roboto;
+}
+
+span {
+  color: #c20a72;
+  /* width: 50px; */
+}
+button {
+  border-radius: 5px;
+  padding: 8px 10px;
+  border: none;
+  background-color: #0078fa;
+  color: white;
+}
