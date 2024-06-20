@@ -1,0 +1,18 @@
+body {
+  background-image: url("greet.jpg");
+  background-size: cover;
+}
+
+p {
+  font-size: 40px;
+}
+
+.p2 {
+  margin-top: 10%;
+  width: 50%;
+}
+
+.p1 {
+  position: initial;
+  float: right;
+}
