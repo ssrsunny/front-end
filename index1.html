@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-Do List</title>
+    <style>
+      .strikethrough {
+        text-decoration: line-through;
+      }
+      .container {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+      }
+      .item {
+        display: flex;
+        align-items: center;
+        margin-left: 10px;
+      }
+      .btn {
+        background: none;
+        border: none;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <input type="text" id="textitem" placeholder="Enter item" />
+    <button onclick="createListItem()">Add Item</button>
+    <button id="saveButton">Save List</button>
+  </body>
+  <script src="script1.js"></script>
+</html>
